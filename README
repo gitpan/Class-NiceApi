@@ -1,0 +1,26 @@
+Class/NiceApi
+=============
+
+Perl method names should be written lowercased and multiple words should
+be connected via '_'. This "is_good_coding_convention". Unfortunately
+this "recommendation" is ignored by many CPAN authors. Class::NiceApi
+helps pernickety programmers as me. It translates method names from
+"isThisPerl" to "is_this_perl" back and forth. Well, it so flexible it
+can translate allmost anything to anything. So it would translate
+"perl_method_name" to java programmers favorite "perlMethodName".
+INSTALLATION
+
+To install this module type the following:
+
+   perl Makefile.PL
+   make
+   make test
+   make install
+
+COPYRIGHT AND LICENCE
+
+Copyright (C) 2003 Murat Uenalan
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself.
+
